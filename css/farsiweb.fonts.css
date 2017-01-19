@@ -1,0 +1,42 @@
+/*
+	https://fontlibrary.org/face/homa
+	https://fontlibrary.org/face/koodak
+	https://fontlibrary.org/face/nazli
+	https://fontlibrary.org/face/roya
+	https://fontlibrary.org/face/terafik
+*/
+@font-face{
+	font-family: homa;
+	src: url('https://fontlibrary.org/assets/fonts/homa/3c63b16bd5505bee488a0fedd9b5531a/9a09a003c2506f9d2733eb3500262f2f/HomaRegular.ttf') format('truetype');
+}
+@font-face{
+	font-family: koodak;
+	src: url('https://fontlibrary.org/assets/fonts/koodak/d966a5d651b06f08f13aa49e5c4a054d/ea985065d84c5b2b00385397bca8cd3c/KoodakRegular.ttf') format('truetype');
+}
+@font-face{
+	font-family: nazli;
+	src: url('https://fontlibrary.org/assets/fonts/nazli/6520fa1d9dfcb52f23ce73cd24794e4a/0d706c61cddbf4c75856e30a4264373d/NazliRegular.ttf') format('truetype');
+}
+@font-face{
+	font-family: nazli;
+	src: url('https://fontlibrary.org/assets/fonts/nazli/6520fa1d9dfcb52f23ce73cd24794e4a/a0084c4527a187769df2e55525f170ff/NazliBold.ttf') format('truetype');
+	font-weight: bold;
+}
+@font-face{
+	font-family: roya;
+	src: url('https://fontlibrary.org/assets/fonts/roya/77b6aaee28ec92e6a9b9bd149664154f/6740decaa580cba4bfb47f6e9939834c/RoyaRegular.ttf') format('truetype');
+}
+@font-face{
+	font-family: roya;
+	src: url('https://fontlibrary.org/assets/fonts/roya/77b6aaee28ec92e6a9b9bd149664154f/865e71ad6cac1d6f9c7627993e1c7dca/RoyaBold.ttf') format('truetype');
+	font-weight: bold;
+}
+@font-face{
+	font-family: terafik;
+	src: url('https://fontlibrary.org/assets/fonts/terafik/c6e226ecd47dd5c5b9e2874edee8b1f8/f673d0c014de36264d2c0f230ab0ebb2/TerafikRegular.ttf') format('truetype');
+}
+@font-face{
+	font-family: terafik;
+	src: url('https://fontlibrary.org/assets/fonts/terafik/c6e226ecd47dd5c5b9e2874edee8b1f8/411443d4ed0fe5ecc0b239bc9bef6eee/TerafikBold.ttf') format('truetype');
+	font-weight: bold;
+}

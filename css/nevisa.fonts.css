@@ -1,0 +1,22 @@
+/*
+	https://fontlibrary.org/face/iranian-sans
+	https://fontlibrary.org/face/iransansz
+	https://fontlibrary.org/face/iranian-serif
+*/
+@font-face{
+	font-family: IranianSans;
+	src: url('https://fontlibrary.org/assets/fonts/iranian-sans/2619cbcea5e87e4bb3d77b2e2a94466f/e20972aee7112921a84fc1474cfba7a5/IranianSansRegular.ttf') format('truetype');
+}
+@font-face{
+	font-family: IranianSans;
+	src: url('https://fontlibrary.org/assets/fonts/iranian-sans/2619cbcea5e87e4bb3d77b2e2a94466f/730e5ef8ba88ae5a68b261e84125043c/IranianSansBold.ttf') format('truetype');
+	font-weight: bold;
+}
+@font-face{
+	font-family: IranianSansZ;
+	src: url('https://fontlibrary.org/assets/fonts/iransansz/928ac6d28660166929ad1442c988e14a/e15946eafbe361162bb525551878d624/IranSansZRegular.ttf') format('truetype');
+}
+@font-face{
+	font-family: IranianSerif;
+	src: url('https://fontlibrary.org/assets/fonts/iranian-serif/3bf122e0d984a0a116a95491c835ec49/b9d688f062c7f2a7c8e4bb56ab13a6a7/IranianSerifRegular.ttf') format('truetype');
+}
