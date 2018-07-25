@@ -1,0 +1,3 @@
+[submodule "pic"]
+	path = pic
+	url = https://gitlab.com/hadi_sfr/simple_picture_portofolio.git
