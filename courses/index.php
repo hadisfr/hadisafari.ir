@@ -6,21 +6,20 @@
     info[at]hadisafari.ir
 -->
 <?php
-    $root="./courses";
+    $root=".";
     $desc_suffix = "/desc.html";
     $title_suffix = "/title.html";
     $background_suffix = "/bg.jpg";
     $rtl_suffix = "/rtl";
     /*
-        courses
-        └── example_course
-            ├── bg.jpg
-            ├── cnt
-            │   └── example_file
-            ├── desc.html
-            ├── index.php (redirection)
-            ├── (rtl)
-            └── title.html
+        example_course
+        ├── bg.jpg
+        ├── cnt
+        │   └── example_file
+        ├── desc.html
+        ├── index.php (redirection)
+        ├── (rtl)
+        └── title.html
     */
     $dir = scandir($root);
     $titles = [];
