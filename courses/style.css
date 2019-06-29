@@ -57,6 +57,15 @@ ul li::before {
     width: 1em;
 }
 
+.rtl ul li::before {
+    margin-left: initial;
+    margin-right: -1em;
+}
+
+li {
+    padding: 6px;
+}
+
 [class|="fa"]::after {
     content: "\f0c1";
     font-family: FontAwesome;

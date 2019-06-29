@@ -75,5 +75,13 @@
         <a href="#courses"><span class="fa-graduation-cap"></span></a> <span class="sep"></span>
         &copy; Hadi Safari
     </div>
+    <script type="text/javascript">
+        function sync_bg_size() {
+            for (let elm of document.getElementsByClassName("bg"))
+                elm.style.height = elm.parentNode.clientHeight + "px";
+        }
+        window.addEventListener("resize", sync_bg_size);
+        sync_bg_size();
+    </script>
 </body>
 </html>
