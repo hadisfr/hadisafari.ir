@@ -26,7 +26,7 @@
     $titles = [];
     $rtl = [];
     for ($i=0; $i < count($dir); $i++)
-        if($dir[$i] !== "." && $dir[$i] !== "..") {
+        if(strpos($dir[$i], ".") === false) {
             $title_file = fopen($root . "/" . $dir[$i] . $title_suffix, "r") or die("Unable to open title file!");
             $titles[$dir[$i]] = fread($title_file, filesize($root . "/" . $dir[$i] . $title_suffix));
             fclose($title_file);
@@ -48,7 +48,7 @@
         <ul>
             <?php
                 for ($i=0; $i < count($dir); $i++)
-                    if($dir[$i] !== "." && $dir[$i] !== "..")
+                    if(strpos($dir[$i], ".") === false)
                         echo "<li><a href=\"#" . $dir[$i] . "\""
                             . " class=\"" . (($rtl[$dir[$i]]) ? " rtl" : "") . "\">"
                             . $titles[$dir[$i]] . "</a></li>";
@@ -57,7 +57,7 @@
     </div>
     <?php
         for ($i=0; $i < count($dir); $i++)
-            if($dir[$i] !== "." && $dir[$i] !== "..") {
+            if(strpos($dir[$i], ".") === false) {
                 $desc_file = fopen($root . "/" . $dir[$i] . $desc_suffix, "r") or die("Unable to open desc file!");
                 $desc = fread($desc_file, filesize($root . "/" . $dir[$i] . $desc_suffix));
                 fclose($desc_file);
