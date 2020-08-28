@@ -4,8 +4,8 @@
     http://hadisafari.ir
     info[at]hadisafari.ir
 */
-@import url(http://hadisafari.ir/css/font-awesome.fonts.css);
-@import url(http://hadisafari.ir/css/nevisa.fonts.css);
+@import url(https://hadisafari.ir/css/font-awesome.fonts.css);
+@import url(https://hadisafari.ir/css/nevisa.fonts.css);
 /*@import url(iraniansans.fonts.css);*/
 * {
     box-sizing: border-box;
@@ -183,7 +183,7 @@ p {
     display: block;
 }
 
-.edu::before, .awards::before, .writings::before, .works::before, .skills::before, .mail::before, .linkedin::before, .google::before {
+.edu::before, .awards::before, .writings::before, .works::before, .skills::before, .mail::before, .linkedin::before, .google::before, .books::before {
     font-family: FontAwesome;
     padding: 6px;
     font-style: normal;
@@ -195,6 +195,10 @@ p {
 
 .awards::before {
     content: "\f091";
+}
+
+.books::before {
+    content: "\f02d";
 }
 
 .writings::before {
