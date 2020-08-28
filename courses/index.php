@@ -2,7 +2,7 @@
 <!--
     © 2019 Hadi Safari
     
-    http://hadisafari.ir
+    https://hadisafari.ir
     info[at]hadisafari.ir
 -->
 <?php
@@ -71,7 +71,7 @@
     ?>
 
     <div class="footer">
-        <a href="http://hadisafari.ir"><span class="fa-home"></span></a> <span class="sep"></span>
+        <a href="https://hadisafari.ir"><span class="fa-home"></span></a> <span class="sep"></span>
         <a href="#courses"><span class="fa-graduation-cap"></span></a> <span class="sep"></span>
         &copy; Hadi Safari
     </div>
