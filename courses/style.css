@@ -5,8 +5,8 @@
     info[at]hadisafari.ir
 */
 
-@import url(http://hadisafari.ir/css/font-awesome.fonts.css);
-@import url(http://hadisafari.ir/css/nevisa.fonts.css);
+@import url(https://hadisafari.ir/css/font-awesome.fonts.css);
+@import url(https://hadisafari.ir/css/nevisa.fonts.css);
 
 * {
     box-sizing: border-box;
@@ -138,4 +138,9 @@ li {
 .footer > .sep::after {
     color: #ffee58;
     content: "|";
+}
+
+.cnt {
+    max-width: 900px;
+    margin: auto;
 }

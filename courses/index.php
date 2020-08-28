@@ -43,16 +43,18 @@
 <body>
     <div class="part" id="courses">
         <div class="bg" style="background-image: url('bg.jpg');"></div>
-        <h1><span class="fa-graduation-cap"></span>&nbsp;Courses</h1>
-        <ul>
-            <?php
-                for ($i=0; $i < count($dir); $i++)
-                    if(strpos($dir[$i], ".") === false)
-                        echo "<li><a href=\"#" . $dir[$i] . "\""
-                            . " class=\"" . (($rtl[$dir[$i]]) ? " rtl" : "") . "\">"
-                            . $titles[$dir[$i]] . "</a></li>";
-            ?>
-        </ul>
+        <div class="cnt">
+            <h1><span class="fa-graduation-cap"></span>&nbsp;Courses</h1>
+            <ul>
+                <?php
+                    for ($i=0; $i < count($dir); $i++)
+                        if(strpos($dir[$i], ".") === false)
+                            echo "<li><a href=\"#" . $dir[$i] . "\""
+                                . " class=\"" . (($rtl[$dir[$i]]) ? " rtl" : "") . "\">"
+                                . $titles[$dir[$i]] . "</a></li>";
+                ?>
+            </ul>
+        </div>
     </div>
     <?php
         for ($i=0; $i < count($dir); $i++)
@@ -63,8 +65,10 @@
                 echo "
     <div class=\"part" . (($rtl[$dir[$i]]) ? " rtl" : "") . "\" id=\"". $dir[$i] . "\">
         <div class=\"bg\" style=\"background-image: url('" . $root . "/" . $dir[$i] . $background_suffix . "');\"></div>
-        <h2>" . $titles[$dir[$i]] . "</h2>
-        ". $desc . "
+        <div class=\"cnt\">
+            <h2>" . $titles[$dir[$i]] . "</h2>
+            ". $desc . "
+        </div>
     </div>
                 ";
             }
