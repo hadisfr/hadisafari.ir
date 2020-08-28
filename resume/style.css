@@ -65,6 +65,7 @@ p {
 
 #container {
     width: 75%;
+    max-width: 900px;
     margin: auto;
     padding: 26px;
     background: #fff;
@@ -100,6 +101,12 @@ p {
 .cnt hr {
     width: 70%;
     margin-left: 0;
+}
+
+.cnt.rtl hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: 0;
 }
 
 .cnt.rtl img.avatar {
